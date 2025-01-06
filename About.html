@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Eduford</title>
+</head>
+<body>
+    <!--Main-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick=hidemenu() ></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./About.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./Blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                    
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick=showmenu()></i>
+        </nav>
+        
+            <h1>About Us</h1>
+    </section>
+
+    <!-----About us content -->
+    <section class="aboutus">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest University</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus odio purus, pellentesque ut massa id, sagittis condimentum nibh. Pellentesque sed lectus lobortis, facilisis nisl mollis, gravida ante. Nunc sodales ultrices ipsum, nec accumsan nibh efficitur a. Pellentesque in ultrices est. Proin risus dui, luctus non faucibus non, auctor eget arcu. Aliquam viverra facilisis justo id ornare. </p>
+                <a href="" class="butt-1 red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./eduford_img/eduford_img/about.jpg" alt="">
+            </div>
+
+
+        </div>
+    
+
+    </section>
+
+     <!-- Footer -->
+     <section class="footer"> 
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero placeat illum, ipsa nulla, voluptatibus neque rerum natus id optio reprehenderit a, <br>numquam consequuntur esse delectus similique doloribus non facere tenetur?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> By Deepak kumar</p>
+
+     </section>
+
+     <!-- Script fot toggle button -->
+    <script>
+     var show=document.getElementById('navlinks');
+     function showmenu(){
+        show.style.right = "0";
+     }
+     function hidemenu(){
+        show.style.right = "-200px";
+     }
+    </script>
+</body>
+</html>
